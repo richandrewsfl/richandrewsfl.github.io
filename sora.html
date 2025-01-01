@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Rich Andrews - Portfolio Site</title>
+    <meta
+      content="Rich Andrews - Portfolio Site"
+      property="og:title"
+    />
+
+    <meta
+      content="A quick loading collection of my recent work."
+      name="description"
+    />
+    <meta
+      content="A quick loading collection of my recent work."
+      property="og:description"
+    />
+
+    <meta content="public/og.png" property="og:image" />
+    <meta content="summary" name="twitter:card" />
+
+    <link inline rel="stylesheet" href="stylesheet.css" />
+    <link rel="canonical" href="https://richandrewsfl.github.io" />
+  </head>
+  <body>
+    <header>
+      <a href="#h">Rich Andrews</a></h1>
+      <nav>
+<!--         <a href="#s">Size check</a>
+ -->        <a href="#c">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+   <!--    <section id="s">
+      </section>
+ -->
+      <section id="sora_project">
+
+    <h1>🎥 How Does OpenAI Showcase Videos on Their Sora Featured Page?</h1>
+
+    <p>OpenAI’s Sora featured page stands out not only for its innovative AI-generated content but also for its smooth video presentation. Visitors are greeted with videos that autoplay, loop continuously, and adapt to different screen sizes—all without the typical download option you might see on standard video players.</p>
+
+    <p>This seamless experience is powered by a simple block of HTML. If you’re interested in how OpenAI achieves this polished look, let’s break down the code and explain how you can apply similar techniques to your own website.</p>
+
+    <h2>The Code:</h2>
+    <pre><code>
+&lt;div style="width: 100%; height: 100%;"&gt;
+  &lt;video src="https://videos.openai.com/example.mp4" 
+         preload="metadata" 
+         loop 
+         controlslist="nodownload" 
+         playsinline 
+         webkit-playsinline 
+         x5-playsinline 
+         autoplay 
+         style="width: 100%; height: 100%;"&gt;
+  &lt;/video&gt;
+&lt;/div&gt;
+    </code></pre>
+
+    <h2>How This Code Works:</h2>
+    <p>This block of HTML embeds a video directly into the page. When a user visits, the video:</p>
+    <ul>
+        <li><strong>Autoplays</strong> immediately.</li>
+        <li><strong>Loops</strong> continuously.</li>
+        <li><strong>Fills</strong> the entire available space.</li>
+        <li><strong>Restricts downloads</strong> by removing the download option from the video player’s controls.</li>
+    </ul>
+
+
+
+      
+      </section>
+
+    </main>
+    <footer>
+      Crafted with 💙 for a fast web
+    </footer>
+  </body>
+</html>
